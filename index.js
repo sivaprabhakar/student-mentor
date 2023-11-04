@@ -6,7 +6,7 @@ const mentorRoutes = require('./src/routes/mentorRoutes');
 const studentRoutes = require('./src/routes/studentRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
